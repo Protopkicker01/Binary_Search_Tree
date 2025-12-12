@@ -9,7 +9,8 @@ void sortArray(int arr[], int size) {
                 minIndex = j;
             }
         }
-        if (minIndex != i) {
+        if (minIndex != i) 
+        {
             int temp = arr[i];
             arr[i] = arr[minIndex];
             arr[minIndex] = temp;
